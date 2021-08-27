@@ -1,0 +1,10 @@
+#find duplicate number in a list
+num = [1,2,3,3,2,6,7,8]
+a =[]
+for number in num:
+    if number in a:
+        duplicate_number = number
+        print("the duplicate number is ")
+        print(duplicate_number)
+    else:
+        a.append(number)
